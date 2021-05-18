@@ -109,7 +109,6 @@ body {
 .about-us-text {
 	margin: 0px 78px 0px 78px;
 	max-width: 474px;
-	
 	min-height: 483px;
 	height: auto;
 	opacity: 0.74;
@@ -129,8 +128,6 @@ body {
 	letter-spacing: 0.06em;
 	color: #000000;
 }
-
-
 .featured-works {
 	min-height: : 1166px;
 	height: auto;
@@ -150,10 +147,7 @@ body {
 }
 .works__img_margin {
 	margin: 8px 8px 8px 8px;
-
 }
-
-
 .small-team {
 min-height: : 1360px;
 height: auto;
@@ -173,11 +167,9 @@ background-color: #f9fbfb;
 	height: auto;
 	padding: 0px 150px 0px 150px;
 	margin: -8px -8px -8px -8px;
-
 }
 .small__team__img_margin {
 	margin: 8px 8px 8px 8px;
-
 }
 .footer {
 	height: 1021px;
@@ -197,7 +189,6 @@ background-color: #f9fbfb;
 	align-items:center;
 	margin: 0px -4px 0px -4px;
 }
-
 .icon__pinterest {
 	height: 45px;
 	width: 45px;
@@ -206,14 +197,12 @@ background-color: #f9fbfb;
 	margin: 0px 4px 0px 4px;
 	color: #969596;
 	padding: 10px 0px 0px 0px;
-
 }
-
 .icon__twitter {
 	height: 45px;
 	width: 45px;
 	background-color: #383c3f;
-	font-size: 25px;
+	font-size: 25px;rgb(19, 23, 26)
 	margin: 0px 4px 0px 4px;
 	color: #969596;
 	padding: 10px 0px 0px 0px;
@@ -234,7 +223,7 @@ background-color: #f9fbfb;
 	width: 45px;
 	background-color: #383c3f;
 	font-size: 25px;
-	margin: 0px 4px 0px 4px;
+	margin: 0px 4px 0px 0px;
 	color: #969596;
 	padding: 10px 0px 0px 0px;
 }
@@ -268,6 +257,17 @@ background-color: #f9fbfb;
 	height: 460px;
 	opacity: 0.7;
 	background-color: #021623;
+}
+.send-message_form {
+	margin: 30px;
+}
+.send__message_form_text {
+	opacity: 0.6;
+	font-family: Raleway;
+	font-size: 15px;
+	line-height: 35px;
+	font-weight: 400;
+	color: #ffffff;
 }
 .adrees {
 	max-width: 500px;
@@ -318,3 +318,29 @@ background-color: #f9fbfb;
 	font-weight: 400;
 	color: #ffffff;
 	}
+.form_size {
+	height: 25px;
+	width: 550px;
+	background-color: #66747d;
+}
+.message__form_size {
+	height: 120px;
+	width: 550px;
+	background-color: #66747d;
+}
+.send__message_button {
+	margin: 10px 10px;
+	width: 244px;
+	height: 53px;
+	background-color: #6eeee4;
+}
+.send__message_button_style {
+	opacity: 0.7;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	color: #000000;
+}
