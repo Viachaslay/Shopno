@@ -23,11 +23,10 @@ html {
   width: 100%;
   background-color: #eff0f2;
 }
-
-.title-shopno {
+.title__shopno {
   padding: 5% 0px 0px 10%;
 }
-.title-shopno p {
+.title__shopno p {
   padding: 4px 0px 0px 0px;
   text-align: center;
   width: 113px;
@@ -42,12 +41,11 @@ html {
   text-shadow: 0px 0px 2px rgba(21, 21, 22, 0.75);
   color: #000000;
 }
-.title-shopno p span {
+.title__shopno p span {
   font-size: 21px;
   color: #77efe5;
 }
-
-.title-hello {
+.title__hello {
   text-align: center;
   font-family: "Montserrat Subrayada", sans-serif;
   font-weight: bold;
@@ -57,11 +55,10 @@ html {
   color: #505050;
   line-height: 50px;
 }
-.title-hello span {
+.title__hello span {
   background-color: #b2f2ee;
 }
-
-.title-button {
+.title__button {
   text-align: center;
   font-family: "Montserrat Subrayada", sans-serif;
   font-weight: bold;
@@ -76,12 +73,12 @@ html {
   border: 2px solid #000000;
   padding: 10px 0px 0px 0px;
 }
-.title-button a {
+.title__button a {
   color: #000000;
   text-decoration: none;
   padding: 13px 44px 13px 44px;
 }
-.title-button a:hover {
+.title__button a:hover {
   color: #000000;
   background: #b2f2ee;
   background-size: cover;
@@ -95,12 +92,11 @@ html {
   width: 100%;
   background-color: #f8fafa;
 }
-
-.about-us-title {
+.about-us__title {
   text-align: center;
   padding: 129px 0px 147px 0px;
 }
-.about-us-title span {
+.about-us__title span {
   font-family: Merriweather;
   font-weight: bold;
   font-size: 20px;
@@ -109,7 +105,7 @@ html {
   letter-spacing: 0.06em;
   color: #000000;
 }
-.about-us-title .title_font {
+.about-us__title .title_font {
   text-align: center;
   font-family: "Montserrat Subrayada", sans-serif;
   font-weight: bold;
@@ -119,8 +115,7 @@ html {
   color: #505050;
   line-height: 50px;
 }
-
-.about-us-boody {
+.about-us__boody {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,10 +127,10 @@ html {
   min-height: 483px;
   width: 100%;
 }
-.about-us-boody img {
+.about-us__boody img {
   width: 360px;
 }
-.about-us-boody .about-us-text {
+.about-us__boody .about-us__text {
   margin: 0px 78px 0px 78px;
   max-width: 474px;
   min-height: 483px;
@@ -146,7 +141,7 @@ html {
   letter-spacing: 0.05em;
   color: #000000;
 }
-.about-us-boody .about-us-text span {
+.about-us__boody .about-us__text span {
   font-family: Merriweather;
   font-weight: bold;
   font-size: 20px;
@@ -161,12 +156,11 @@ html {
   width: 100%;
   background-color: #ffffff;
 }
-
-.works-title {
+.featured-works__title {
   text-align: center;
   padding: 129px 0px 122px 0px;
 }
-.works-title span {
+.featured-works__title span {
   font-family: Merriweather;
   font-weight: bold;
   font-size: 20px;
@@ -175,7 +169,7 @@ html {
   letter-spacing: 0.06em;
   color: #000000;
 }
-.works-title .title_font {
+.featured-works__title .title_font {
   text-align: center;
   font-family: "Montserrat Subrayada", sans-serif;
   font-weight: bold;
@@ -185,8 +179,7 @@ html {
   color: #505050;
   line-height: 50px;
 }
-
-.works-img-box {
+.featured-works__img-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,7 +192,7 @@ html {
   margin: -8px -8px -8px -8px;
   width: 100%;
 }
-.works-img-box img {
+.featured-works__img-box img {
   margin: 8px 8px 8px 8px;
 }
 
@@ -208,12 +201,11 @@ html {
   width: 100%;
   background-color: #f9fbfb;
 }
-
-.small-team-title {
+.small-team__title {
   padding: 99px 0px 123px 0px;
   text-align: center;
 }
-.small-team-title span {
+.small-team__title span {
   font-family: Merriweather;
   font-weight: bold;
   font-size: 20px;
@@ -222,7 +214,7 @@ html {
   letter-spacing: 0.06em;
   color: #000000;
 }
-.small-team-title .title_font {
+.small-team__title .title_font {
   text-align: center;
   font-family: "Montserrat Subrayada", sans-serif;
   font-weight: bold;
@@ -232,8 +224,7 @@ html {
   color: #505050;
   line-height: 50px;
 }
-
-.small-team-img {
+.small-team__img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -248,7 +239,7 @@ html {
   padding: 0px 150px 0px 150px;
   margin: -8px -8px -8px -8px;
 }
-.small-team-img img {
+.small-team__img img {
   margin: 8px 8px 8px 8px;
   width: 360px;
 }
@@ -262,8 +253,7 @@ html {
 .footer a {
   text-decoration: none;
 }
-
-.footer-contact {
+.footer__contact {
   max-width: 1166px;
   min-height: 500px;
   margin: 120px auto;
@@ -276,8 +266,7 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
-.send-message {
+.footer__contact .send-message {
   margin: 13px;
   width: 614px;
   height: 460px;
@@ -286,11 +275,10 @@ html {
   -webkit-box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.11);
           box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.11);
 }
-
-.send-message_form {
+.footer__contact .send-message .send-message_form {
   margin: 30px;
 }
-.send-message_form p {
+.footer__contact .send-message .send-message_form p {
   opacity: 0.6;
   font-family: Raleway;
   font-size: 15px;
@@ -298,24 +286,24 @@ html {
   font-weight: 400;
   color: #ffffff;
 }
-.send-message_form input {
+.footer__contact .send-message .send-message_form input {
   height: 25px;
   max-width: 550px;
   width: 100%;
   background-color: #66747d;
 }
-.send-message_form .message__form_size {
+.footer__contact .send-message .send-message_form .message__form_size {
   height: 120px;
   max-width: 550px;
   width: 100%;
   background-color: #66747d;
 }
-.send-message_form .send__message_button {
+.footer__contact .send-message .send-message_form .send__message_button {
   margin: 10px 10px;
   width: 244px;
   height: 53px;
 }
-.send-message_form .send__message_button span {
+.footer__contact .send-message .send-message_form .send__message_button span {
   opacity: 0.7;
   font-family: "Montserrat Subrayada", sans-serif;
   font-size: 18px;
@@ -325,14 +313,13 @@ html {
   color: #000000;
   padding: 17px 37px 17px 37px;
 }
-.send-message_form .send__message_button span:hover {
+.footer__contact .send-message .send-message_form .send__message_button span:hover {
   background-color: #b2f2ee;
   -webkit-transition-duration: 600ms;
           transition-duration: 600ms;
   color: #000000;
 }
-
-.adress {
+.footer__contact .adress {
   margin: 13px;
   width: 500px;
   height: 460px;
@@ -345,16 +332,16 @@ html {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.adress .google__map {
+.footer__contact .adress .google__map {
   width: 100%;
   padding: 0 3% 5% 3%;
 }
-.adress .google__map .google_map__size {
+.footer__contact .adress .google__map .google_map__size {
   margin: 20px auto;
   width: 100%;
   height: 224px;
 }
-.adress .adress__text {
+.footer__contact .adress .adress__text {
   margin: 36px 0px 0px 30px;
   opacity: 0.7;
   font-family: Raleway;
@@ -363,27 +350,26 @@ html {
   font-weight: 400;
   color: #a6afb4;
 }
-.adress .adress__text a {
+.footer__contact .adress .adress__text a {
   color: #959495;
   padding: 7px;
   margin: 0px 0px 0px -7px;
 }
-.adress .adress__text a:visited {
+.footer__contact .adress .adress__text a:visited {
   color: #959495;
 }
-.adress .adress__text a:hover {
+.footer__contact .adress .adress__text a:hover {
   color: #000000;
   background: #b2f2ee;
   -webkit-transition-duration: 600ms;
           transition-duration: 600ms;
 }
-
-.footer-folloow-us {
+.footer__folloow-us {
   width: 100%;
   height: 315px;
   background-color: #262b2e;
 }
-.footer-folloow-us .footer-follow-us_text {
+.footer__folloow-us .footer-follow-us_text {
   padding: 93px 0px 20px 0px;
   text-align: center;
   opacity: 0.8;
@@ -392,7 +378,7 @@ html {
   line-height: 25px;
   color: #ffffff;
 }
-.footer-folloow-us .footer-folloow-us-icon {
+.footer__folloow-us .footer-folloow-us-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -401,25 +387,25 @@ html {
           justify-content: center;
   margin: 0px -4px 0px -4px;
 }
-.footer-folloow-us .footer-folloow-us-icon i {
+.footer__folloow-us .footer-folloow-us-icon i {
   padding: 13px;
   width: 50px;
   height: 50px;
 }
-.footer-folloow-us .footer-folloow-us-icon a {
+.footer__folloow-us .footer-folloow-us-icon a {
   color: #959495;
   text-align: center;
 }
-.footer-folloow-us .footer-folloow-us-icon a :visited {
+.footer__folloow-us .footer-folloow-us-icon a :visited {
   color: #4eff08;
 }
-.footer-folloow-us .footer-folloow-us-icon a :hover {
+.footer__folloow-us .footer-folloow-us-icon a :hover {
   color: #000000;
   background: #b2f2ee;
   -webkit-transition-duration: 600ms;
           transition-duration: 600ms;
 }
-.footer-folloow-us .footer-folloow-us-icon .icon__pinterest {
+.footer__folloow-us .footer-folloow-us-icon .icon__pinterest {
   height: 50px;
   width: 50px;
   background-color: #383c3f;
@@ -427,7 +413,7 @@ html {
   margin: 0px 4px 0px 4px;
   color: #969596;
 }
-.footer-folloow-us .footer-folloow-us-icon .icon__twitter {
+.footer__folloow-us .footer-folloow-us-icon .icon__twitter {
   height: 50px;
   width: 50px;
   background-color: #383c3f;
@@ -435,7 +421,7 @@ html {
   margin: 0px 4px 0px 4px;
   color: #969596;
 }
-.footer-folloow-us .footer-folloow-us-icon .icon__facebook {
+.footer__folloow-us .footer-folloow-us-icon .icon__facebook {
   height: 50px;
   width: 50px;
   background-color: #383c3f;
@@ -443,7 +429,7 @@ html {
   margin: 0px 4px 0px 4px;
   color: #969596;
 }
-.footer-folloow-us .footer-folloow-us-icon .icon__dribbble {
+.footer__folloow-us .footer-folloow-us-icon .icon__dribbble {
   height: 50px;
   width: 50px;
   background-color: #383c3f;

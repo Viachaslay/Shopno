@@ -32,115 +32,115 @@ html {
 	height: 806px;
 	width: 100%;
 	background-color: #eff0f2;
-}
 
-.title-shopno {
-	padding: 5% 0px 0px 10%;
+	&__shopno {
+		padding: 5% 0px 0px 10%;
+		
+		p {
+			padding: 4px 0px 0px 0px;
+			text-align:center;
+			width: 113px;
+			height: 46px;
+			border: 5.6px solid #170f1c;
+			font-family: 'Montserrat Subrayada', sans-serif;
+			font-size: 17px;
+			line-height: 28px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.06em;
+			text-shadow: 0px 0px 2px rgba(21,21,22,0.75);
+			color: #000000;
 	
-	p {
-		padding: 4px 0px 0px 0px;
-		text-align:center;
-		width: 113px;
-		height: 46px;
-		border: 5.6px solid #170f1c;
-		font-family: 'Montserrat Subrayada', sans-serif;
-		font-size: 17px;
-		line-height: 28px;
-		font-weight: 700;
-		text-transform: uppercase;
-		letter-spacing: 0.06em;
-		text-shadow: 0px 0px 2px rgba(21,21,22,0.75);
-		color: #000000;
+			span {
+				font-size: 21px;
+				color: #77efe5;
+			}
+	}
+	
+	}
 
-		span {
-			font-size: 21px;
-			color: #77efe5;
-		}
-}
-
-}
-
-.title-hello {
+	&__hello {
 		@include title-font;
 		
 	span {
 		background-color: #b2f2ee;
 	}
-}
+	}
 
-.title-button {
-	text-align: center;
-	font-family: 'Montserrat Subrayada', sans-serif;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 28px;
-	text-transform: uppercase;
-	letter-spacing: 0.12em;
-	margin-left: auto;
-    margin-right: auto;
-    width: 232px;
-	height: 52px;
-	border: 2px solid #000000;
-	padding: 10px 0px 0px 0px;
-	
-	a {
-		color: #000000; 
-		text-decoration: none;
-		padding: 13px 44px 13px 44px;
-	   }
-	   
-	   a:hover {
-		color: #000000; 
-		background: #b2f2ee; 
-		background-size: cover;
-		text-decoration: none;
-		transition-duration: 600ms;
-		}
+	&__button {
+		text-align: center;
+		font-family: 'Montserrat Subrayada', sans-serif;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 28px;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		margin-left: auto;
+		margin-right: auto;
+		width: 232px;
+		height: 52px;
+		border: 2px solid #000000;
+		padding: 10px 0px 0px 0px;
+		
+		a {
+			color: #000000; 
+			text-decoration: none;
+			padding: 13px 44px 13px 44px;
+		   }
+		   
+		   a:hover {
+			color: #000000; 
+			background: #b2f2ee; 
+			background-size: cover;
+			text-decoration: none;
+			transition-duration: 600ms;
+			}
+	}
 }
 
 .about-us {
 	min-height: 985px;
 	width: 100%;
 	background-color: #f8fafa;
-}
 
-.about-us-title {
-	text-align: center;
-	padding: 129px 0px 147px 0px;
-
-	span {
-		@include h2_text_style;
-	}
-
-	.title_font {
-		@include title-font;
-	}
-}
-
-.about-us-boody {
-	display: flex;
-	justify-content:center;
-	flex-wrap:wrap;
-	min-height: 483px;
-    width: 100%;
-
-	img {
-		width: 360px;
-	}
-
-	.about-us-text {
-		margin: 0px 78px 0px 78px;
-		max-width: 474px;
-		min-height: 483px;
-		font-family: Raleway;
-		font-size: 18px;
-		line-height: 28px;
-		font-weight: 400;
-		letter-spacing: 0.05em;
-		color: #000000;
-
+	&__title {
+		text-align: center;
+		padding: 129px 0px 147px 0px;
+	
 		span {
 			@include h2_text_style;
+		}
+	
+		.title_font {
+			@include title-font;
+		}
+	}
+
+	&__boody {
+		display: flex;
+		justify-content:center;
+		flex-wrap:wrap;
+		min-height: 483px;
+		width: 100%;
+	
+		img {
+			width: 360px;
+		}
+	
+		.about-us__text {
+			margin: 0px 78px 0px 78px;
+			max-width: 474px;
+			min-height: 483px;
+			font-family: Raleway;
+			font-size: 18px;
+			line-height: 28px;
+			font-weight: 400;
+			letter-spacing: 0.05em;
+			color: #000000;
+	
+			span {
+				@include h2_text_style;
+			}
 		}
 	}
 }
@@ -149,31 +149,31 @@ html {
 	min-height: 1166px;
 	width: 100%;
 	background-color: #ffffff;
-}
 
-.works-title {
-	text-align: center;
-	padding: 129px 0px 122px 0px;
-
-	span {
-		@include h2_text_style;
+	&__title {
+		text-align: center;
+		padding: 129px 0px 122px 0px;
+	
+		span {
+			@include h2_text_style;
+		}
+	
+		.title_font {
+			@include title-font;
+		}
 	}
 
-	.title_font {
-		@include title-font;
-	}
-}
-
-.works-img-box {
-	display: flex;
-	flex-wrap:wrap;
-	justify-content:center;
-	padding: 0px 150px 125px 150px;
-	margin: -8px -8px -8px -8px;
-	width: 100%;
-
-	img {
-		margin: 8px 8px 8px 8px;
+	&__img-box {
+		display: flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		padding: 0px 150px 125px 150px;
+		margin: -8px -8px -8px -8px;
+		width: 100%;
+	
+		img {
+			margin: 8px 8px 8px 8px;
+		}
 	}
 }
 
@@ -181,9 +181,8 @@ html {
 min-height: 1360px;
 width: 100%;
 background-color: #f9fbfb;
-}
 
-.small-team-title{
+&__title{
 	padding: 99px 0px 123px 0px;
 	text-align: center;
 
@@ -196,7 +195,7 @@ background-color: #f9fbfb;
 	}
 }
 
-.small-team-img {
+&__img {
 	display: flex;
 	flex-wrap:wrap;
 	justify-content:center;
@@ -212,6 +211,7 @@ background-color: #f9fbfb;
 	}
 	
 }
+}
 
 .footer {
    width: 100%;
@@ -222,123 +222,122 @@ background-color: #f9fbfb;
    a {
 	text-decoration: none;
    }
-}
 
-.footer-contact {
+   &__contact {
     max-width: 1166px;
     min-height: 500px;
     margin: 120px auto;
     display: flex;
     flex-wrap:wrap;
 	justify-content:center;
-}
 
-.send-message {
-	margin: 13px;
-	width: 614px;
-    height: 460px;
-    opacity: 0.7;
-    background-color: #021623;
-    box-shadow: 0px 0px 30px 0px rgba(21,21,21,0.11);
-}
-
-.send-message_form {
-	margin: 30px;
-
-	p {
-		opacity: 0.6;
-		font-family: Raleway;
-		font-size: 15px;
-		line-height: 35px;
-		font-weight: 400;
-		color: #ffffff;
-	}
-
-	input {
-			height: 25px;
-			max-width: 550px;
-			width: 100%;
-			background-color: #66747d;
-	}
-
-	.message__form_size {
-		height: 120px;
-		max-width: 550px;
-		width: 100%;
-		background-color: #66747d;
-	}
-
-	.send__message_button {
-		margin: 10px 10px;
-		width: 244px;
-		height: 53px;
-	
-		span {
-			opacity: 0.7;
-			font-family: 'Montserrat Subrayada', sans-serif;
-			font-size: 18px;
-			line-height: 28px;
-			text-transform: uppercase;
-			letter-spacing: 0.12em;
-			color: #000000;
-			padding: 17px 37px 17px 37px;
-		}
-	
-		span:hover {
-			background-color: #b2f2ee;
-			transition-duration: 600ms;
-			color: #000000;
-		}
-	}
-}
-
-.adress {
-	margin: 13px;
-    width: 500px;
-    height: 460px;
-    background-color: rgba($color: #021623, $alpha: 0.7);
-    box-shadow: 0px 0px 3px 0px rgba(21,21,21,0.15);
-    display: flex;
-    flex-wrap:wrap;
-
-	.google__map {
-		
-		width: 100%;
-		padding: 0 3% 5% 3%;
-		
-		.google_map__size {
-			margin: 20px auto;
-			width: 100%;
-			height: 224px; 
-		  }
-		}
-
-	.adress__text {
-		margin: 36px 0px 0px 30px;
+	.send-message {
+		margin: 13px;
+		width: 614px;
+		height: 460px;
 		opacity: 0.7;
-		font-family: Raleway;
-		font-size: 15px;
-		line-height: 24px;
-		font-weight: 400;
-		color: #a6afb4;
+		background-color: #021623;
+		box-shadow: 0px 0px 30px 0px rgba(21,21,21,0.11);
 	
-		 a {
-			color: #959495; 
-			padding: 7px; 
-			margin: 0px 0px 0px -7px;
+		.send-message_form {
+			margin: 30px;
+		
+			p {
+				opacity: 0.6;
+				font-family: Raleway;
+				font-size: 15px;
+				line-height: 35px;
+				font-weight: 400;
+				color: #ffffff;
 			}
-			a:visited {
-				color: #959495 
-				} 
-			a:hover {
-				color: #000000; 
-				background: #b2f2ee; 
-				transition-duration: 600ms;
-  			} 
+		
+			input {
+					height: 25px;
+					max-width: 550px;
+					width: 100%;
+					background-color: #66747d;
+			}
+		
+			.message__form_size {
+				height: 120px;
+				max-width: 550px;
+				width: 100%;
+				background-color: #66747d;
+			}
+		
+			.send__message_button {
+				margin: 10px 10px;
+				width: 244px;
+				height: 53px;
+			
+				span {
+					opacity: 0.7;
+					font-family: 'Montserrat Subrayada', sans-serif;
+					font-size: 18px;
+					line-height: 28px;
+					text-transform: uppercase;
+					letter-spacing: 0.12em;
+					color: #000000;
+					padding: 17px 37px 17px 37px;
+				}
+			
+				span:hover {
+					background-color: #b2f2ee;
+					transition-duration: 600ms;
+					color: #000000;
+				}
+			}
+		}
+	}
+
+	.adress {
+		margin: 13px;
+		width: 500px;
+		height: 460px;
+		background-color: rgba($color: #021623, $alpha: 0.7);
+		box-shadow: 0px 0px 3px 0px rgba(21,21,21,0.15);
+		display: flex;
+		flex-wrap:wrap;
+	
+		.google__map {
+			
+			width: 100%;
+			padding: 0 3% 5% 3%;
+			
+			.google_map__size {
+				margin: 20px auto;
+				width: 100%;
+				height: 224px; 
+			  }
+			}
+	
+		.adress__text {
+			margin: 36px 0px 0px 30px;
+			opacity: 0.7;
+			font-family: Raleway;
+			font-size: 15px;
+			line-height: 24px;
+			font-weight: 400;
+			color: #a6afb4;
+		
+			 a {
+				color: #959495; 
+				padding: 7px; 
+				margin: 0px 0px 0px -7px;
+				}
+				a:visited {
+					color: #959495 
+					} 
+				a:hover {
+					color: #000000; 
+					background: #b2f2ee; 
+					transition-duration: 600ms;
+				  } 
+		}
 	}
 }
 
- .footer-folloow-us {
+	&__folloow-us {
     width: 100%;
     height: 315px;
     background-color: #262b2e;
@@ -415,5 +414,7 @@ background-color: #f9fbfb;
    }
 	
  }
+}
+
 
 
